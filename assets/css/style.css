@@ -61,7 +61,7 @@ img{
     margin-bottom: 15px;
 }
 
-p{
+.content-font{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
@@ -89,4 +89,39 @@ footer{
     text-align: center;
     bottom: 0;
     width: 100%;
+}
+
+.input-fields{
+    width: -webkit-fill-available;
+    height: 20px;
+    color: gray;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+textarea{
+    width: -webkit-fill-available;
+    border: 1px solid #dddddd;
+    height: 100px;
+}
+form {
+    display: block;
+    margin-top: 20px;
+}
+
+label{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.submit-button{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+
 }
